@@ -1,0 +1,37 @@
+9:08 AM 1/15/2018
+Downloaded home upload of Web API Work
+C:\thompson\src\repos\AspNetCoreWebAPI
+
+C:\thompson\src\repos\AspNetCoreWebAPI
+
+
+9:20 AM 1/15/2018
+new Github repo (online)
+1. Create an online repo with same name AspNetCoreWebAPI
+2. the folder above (repos\AspNetCoreWebAPI) will contain work to be synced.
+3. Determine remote commands needed to synch and push.
+--> see working with remotes
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+Git Init AspNetCoreWebAPI
+
+Production Push:
+===========================
+git remote add origin https://github.com/wmthompson1/AspNetCoreWebAPI.git
+git push -u origin master
+ WITH AN UPDATED CONFIG.
+- OR -
+git push https://github.com/wmthompson1/AspNetCoreWebAPI
+
+
+Walk thru (worked!!)
+===========================
+MkDir Spoon-Knife
+cd Spoon-Knife
+git remote add origin https://github.com/wmthompson1/Spoon-Knife
+git fetch https://github.com/wmthompson1/Spoon-Knife
+git pull https://github.com/wmthompson1/Spoon-Knife
+<made some modifications to the README>
+git push https://github.com/wmthompson1/Spoon-Knife
+<Entered my login>
+!! Use the USERNAME **** !!!!
